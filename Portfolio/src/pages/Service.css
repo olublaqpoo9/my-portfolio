@@ -1,0 +1,209 @@
+.service-page{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-family: "Poppins", sans-serif;
+}
+.headline{
+    width: 100%;
+    height: 400px;
+    background-image: url('./tech.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(95, 19, 95); */
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 0px 0px 50px 50px;
+}
+.headline h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.headline p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.service-sections{
+    width: 100%;
+    height: auto;
+   /* background-color: yellow; */
+    padding: 40px 0px;
+    margin-top: 50px;
+}
+.service-card{
+    width: 75%;
+    height: auto;
+    /* background-color: green; */
+    margin: auto;
+    padding: 20px;
+}
+.card-row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-row1 div{
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    align-content: center;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.card-row1 div:hover{
+    background-color:   rgb(188, 22, 188) ;
+    color: white;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+.card-row1 div h2{
+    font-size: 35px;
+}
+
+
+
+
+.card-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card-row2 div{
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    align-content: center;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.card-row2 div:hover{
+    background-color:  rgb(188, 22, 188) ;
+    color: white;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+.card-row2 div h2{
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+@media only screen and ( max-width:390px ) {
+    
+.service-page{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-family: "Poppins", sans-serif;
+}
+.headline{
+    width: 100%;
+    height: 400px;
+    background-image: url('./tech.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(95, 19, 95); */
+    color: white;
+    border-radius: 5px;
+}
+.headline h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.headline p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.service-sections{
+    width: 100%;
+    height: auto;
+   /* background-color: yellow; */
+    padding: 0px 0px;
+    margin-top: 50px;
+}
+.service-card{
+    width: 75%;
+    height: auto;
+    /* background-color: green; */
+    margin: auto;
+    padding: 0px;
+}
+.card-row1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-row1 div{
+    background-color: white;
+    text-align: center;
+    width: 370px;
+    height: 300px;
+    align-content: center;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.card-row1 div:hover{
+    background-color:   rgb(188, 22, 188) ;
+    color: white;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+.card-row1 div h2{
+    font-size: 35px;
+}
+
+
+
+
+.card-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card-row2 div{
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    align-content: center;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.card-row2 div:hover{
+    background-color:  rgb(188, 22, 188) ;
+    color: white;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+.card-row2 div h2{
+    font-size: 35px;
+}
+
+
+}

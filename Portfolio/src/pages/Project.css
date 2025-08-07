@@ -1,0 +1,51 @@
+.project-page{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-family: "Poppins", sans-serif;
+}
+.project-headline{
+    width: 100%;
+    height: 400px;
+    background-image: url('./tech.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f8f8f8;
+    align-content: center;
+    text-align: center;
+    border-radius: 0px 0px 50px 50px;
+}
+.project-headline h1{
+    font-size: 3rem ;
+    font-weight: bold;
+}
+.project-headline p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.project-section{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.project-div{
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    width: 60%;
+}
+.project1{
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 20px 0px 40px 0px;
+}
+.project2{
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 20px 0px 40px 0px;
+}
