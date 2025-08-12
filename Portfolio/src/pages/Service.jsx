@@ -11,7 +11,7 @@ const Service = () => {
             <div className='service-card'>
                 <div className='card-row1' >
                   <div><h2>Responsive <br />  Web Design</h2> <p>Websites that looks great on phones , tablets and desktops</p> <img width={30} src="./arrow.png" alt="" /> </div>
-                  <div> <h2>React Web <br /> Applications</h2> <p>Fast, interactive apss built using React and Modern Javascript.</p> <img width={30} src="./arrow.png" alt="" /> </div>
+                  <div> <h2>React Web <br /> Applications</h2> <p>Fast, interactive apss built using React and Modern Javascript.</p> <img width={30} src="./arrow.png" alt="ufefu" /> </div>
                   <div> <h2>Landing Page <br /> Development</h2> <p>High - Converting single-page sites for businesses or Campaigns.</p> <img width={30} src="./arrow.png" alt="" /> </div>
                 </div>
                 <div className='card-row2'>
