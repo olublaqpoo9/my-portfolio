@@ -97,12 +97,16 @@
     /*  background-color: blue; */
     height: auto;
     width: 100vw;
+    min-width: 380px;
     max-width: 400px;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
     padding: 10px;
+}
+#intro-p{
+    font-size: 12px;
 }
 .hero-left{
     /*  background-color: yellow; */

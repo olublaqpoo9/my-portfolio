@@ -7,7 +7,7 @@ function Home (){
             <div className="hero-left" >
                 <p>Hey, i am Olumide</p>
                 <h1><span>Front</span>end <br /> Developer </h1>
-                <p>I am a frontend website developer based in Nigeria.  I will help you <br />
+                <p id="intro-p" >I am a frontend website developer based in Nigeria.  I will help you <br />
                    to build beautiful websites your users will love. </p>
                 <div>
                     <Link to= "/contact" >

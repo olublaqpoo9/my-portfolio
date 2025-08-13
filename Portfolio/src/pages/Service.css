@@ -105,18 +105,21 @@
 
 
 
-@media only screen and ( max-width:390px ) {
+@media only screen and ( max-width:400px ) {
     
 .service-page{
-    width: 100%;
+    width: 100vw;
+    max-width: 390px;
     height: 100%;
     box-sizing: border-box;
     background-color: #f8f8f8;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    
 }
 .headline{
-    width: 100%;
-    height: 400px;
+    width: 90%;
+    height: 170px;
     background-image: url('./tech.jpg');
     background-position: center;
     background-size: cover;
@@ -124,9 +127,12 @@
     /* background-color: rgb(95, 19, 95); */
     color: white;
     border-radius: 5px;
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 30px;
 }
 .headline h1{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 .headline p{
@@ -157,57 +163,60 @@
 .card-row1 div{
     background-color: white;
     text-align: center;
-    width: 370px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     align-content: center;
     border-radius: 20px;
-    font-size: 17px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    margin-left: -10px;
+}
+.card-row1 div h2{
+    font-size: 25px;
 }
 .card-row1 div:hover{
     background-color:   rgb(188, 22, 188) ;
     color: white;
     transition: 0.4s;
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
-.card-row1 div h2{
-    font-size: 35px;
-}
+
 
 
 
 
 .card-row2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin-top: 50px;
-}
+   }
 .card-row2 div{
     background-color: white;
     text-align: center;
-    width: 30%;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     align-content: center;
     border-radius: 20px;
-    font-size: 17px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    margin-left: -10px;
+}
+.card-row2 div h2{
+    font-size: 25px;
 }
 .card-row2 div:hover{
     background-color:  rgb(188, 22, 188) ;
     color: white;
     transition: 0.4s;
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
-.card-row2 div h2{
-    font-size: 35px;
-}
+
 
 
 }
 
-@media ( min-width:768px ) and (max-width:1024  ) {
-    
-}
+
